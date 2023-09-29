@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+h2{
+    background:rgb(156, 172, 167);
+    border-radius: 15px;
+    padding: 10px;
+}
+h2.paused{
+    color: red;
+}
+button{
+    background: #584c4c;
+    border: none;
+    color: rgb(238, 231, 231);
+    padding: 4px 12px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 20px;
+}
